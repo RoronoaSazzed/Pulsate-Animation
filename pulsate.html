@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pulsate Animation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      :root {
+        --left1: #00e0ca;
+        --left2: #8493ad;
+        --left3: #fb5140;
+        --left4: #8493ad;
+        --left5: #8493ad;
+        --left6: #4140df;
+        --centerFill: #3a4863;
+        --right1: #00e0ca;
+        --right2: #8493ad;
+        --right3: #4140df;
+        --right4: #8493ad;
+        --right5: #8493ad;
+        --right6: #00e0ca;
+      }
+
+      #left1Top {
+        fill: var(--left1);
+      }
+      #left1Bottom {
+        fill: var(--left1);
+        opacity: 0.5;
+      }
+
+      #left2Top {
+        fill: var(--left2);
+      }
+      #left2Bottom {
+        fill: var(--left2);
+        opacity: 0.5;
+      }
+
+      #left3Top {
+        fill: var(--left3);
+      }
+      #left3Bottom {
+        fill: var(--left3);
+        opacity: 0.5;
+      }
+
+      #left4Top {
+        fill: var(--left4);
+      }
+      #left4Bottom {
+        fill: var(--left4);
+        opacity: 0.5;
+      }
+
+      #left5Top {
+        fill: var(--left5);
+      }
+      #left5Bottom {
+        fill: var(--left5);
+        opacity: 0.5;
+      }
+
+      #left6Top {
+        fill: var(--left6);
+      }
+      #left6Bottom {
+        fill: var(--left6);
+        opacity: 0.5;
+      }
+
+      #right1Top {
+        fill: var(--right1);
+      }
+      #right1Bottom {
+        fill: var(--right1);
+        opacity: 0.5;
+      }
+
+      #right2Top {
+        fill: var(--right2);
+      }
+      #right2Bottom {
+        fill: var(--right2);
+        opacity: 0.5;
+      }
+
+      #right3Top {
+        fill: var(--right3);
+      }
+      #right3Bottom {
+        fill: var(--right3);
+        opacity: 0.5;
+      }
+
+      #right4Top {
+        fill: var(--right4);
+      }
+      #right4Bottom {
+        fill: var(--right4);
+        opacity: 0.5;
+      }
+
+      #right5Top {
+        fill: var(--right5);
+      }
+      #right5Bottom {
+        fill: var(--right5);
+        opacity: 0.5;
+      }
+
+      #right6Top {
+        fill: var(--right6);
+      }
+      #right6Bottom {
+        fill: var(--right6);
+        opacity: 0.5;
+      }
+
+      .circleCenterFill {
+        fill: var(--centerFill);
+      }
+
+      #circleCenterFill .back {
+        transform-origin: center;
+        transform-box: fill-box;
+        animation: pulsate 2s ease-in-out infinite forwards;
+      }
+
+      #cCenterOutLine {
+        transform-origin: center;
+        transform-box: fill-box;
+        animation: pulsate 4s ease-in-out infinite forwards;
+      }
+
+      @keyframes pulsate {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+
+        100% {
+          transform: scale(3);
+          opacity: 0;
+        }
+      }
+      .smolCircles {
+        transform-origin: center;
+        transform-box: fill-box;
+        animation: float 4s linear infinite alternate forwards;
+      }
+
+      #cLeft2 {
+        animation-delay: 0.5s;
+      }
+
+      #cLeft3 {
+        animation-delay: 1s;
+      }
+
+      #cLeft4 {
+        animation-delay: 1.5s;
+      }
+
+      #cLeft5 {
+        animation-delay: 2s;
+      }
+
+      #cLeft6 {
+        animation-delay: 0.75s;
+      }
+
+      #cRight1 {
+        animation-delay: 0.5s;
+      }
+
+      #cRight2 {
+        animation-delay: 1s;
+      }
+
+      #cRight3 {
+        animation-delay: 1.5s;
+      }
+
+      #cRight4 {
+        animation-delay: 2s;
+      }
+
+      #cRight5 {
+        animation-delay: 0.75s;
+      }
+
+      #cRight6 {
+        animation-delay: 0.5s;
+      }
+
+      @keyframes float {
+        0% {
+          transform: translateY(0px);
+        }
+        50% {
+          transform: translateY(-5px);
+        }
+
+        100% {
+          transform: translateY(5px);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parentDiv">
+      <svg
+        width="100%"
+        min-height="0"
+        viewBox="0 0 1920 622"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <g id="pulsate">
+          <g class="smolCircles" id="cLeft6">
+            <g class="back" id="back">
+              <circle
+                class="circlesFillBottom"
+                id="left6Bottom"
+                r="7"
+                transform="matrix(-1 0 0 1 416 492)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top">
+              <circle
+                class="circlesFillTop"
+                id="left6Top"
+                r="7"
+                transform="matrix(-1 0 0 1 416 492)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cLeft5">
+            <g class="back" id="back_2">
+              <circle
+                class="circlesFillBottom"
+                id="left5Bottom"
+                r="9"
+                transform="matrix(-1 0 0 1 408 410)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_2">
+              <circle
+                class="circlesFillTop"
+                id="left5Top"
+                r="9"
+                transform="matrix(-1 0 0 1 408 410)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cLeft4">
+            <g class="back" id="back_3">
+              <circle
+                class="circlesFillBottom"
+                id="left4Bottom"
+                r="4"
+                transform="matrix(-1 0 0 1 599 346)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_3">
+              <circle
+                class="circlesFillTop"
+                id="left4Top"
+                r="4"
+                transform="matrix(-1 0 0 1 599 346)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cLeft3">
+            <g class="back" id="back_4">
+              <circle
+                class="circlesFillBottom"
+                id="left3Bottom"
+                r="4"
+                transform="matrix(-1 0 0 1 404 305)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_4">
+              <circle
+                class="circlesFillTop"
+                id="left4Top"
+                r="4"
+                transform="matrix(-1 0 0 1 404 305)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cLeft2">
+            <g class="back" id="back_5">
+              <circle
+                class="circlesFillBottom"
+                id="left2Bottom"
+                r="5"
+                transform="matrix(-1 0 0 1 443 178)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_5">
+              <circle
+                class="circlesFillTop"
+                id="left2Top"
+                r="5"
+                transform="matrix(-1 0 0 1 443 178)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cLeft1">
+            <g class="back" id="back_6">
+              <circle
+                class="circlesFillBottom"
+                id="left1Bottom"
+                cx="522"
+                cy="130"
+                r="7"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_6">
+              <circle
+                class="circlesFillTop"
+                id="left1Top"
+                cx="522"
+                cy="130"
+                r="7"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cRight6">
+            <g class="back" id="back_7">
+              <circle
+                class="circlesFillBottom"
+                id="right6Bottom"
+                r="8"
+                transform="matrix(-1 0 0 1 1529 429)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_7">
+              <circle
+                class="circlesFillTop"
+                id="right6Top"
+                r="8"
+                transform="matrix(-1 0 0 1 1529 429)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cRight5">
+            <g class="back" id="back_8">
+              <circle
+                class="circlesFillBottom"
+                id="right5Bottom"
+                r="4"
+                transform="matrix(-1 0 0 1 1463 409)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_8">
+              <circle
+                class="circlesFillTop"
+                id="right5Top"
+                r="4"
+                transform="matrix(-1 0 0 1 1463 409)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cRight4">
+            <g class="back" id="back_9">
+              <circle
+                class="circlesFillBottom"
+                id="right4Bottom"
+                r="6"
+                transform="matrix(-1 0 0 1 1270 346)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_9">
+              <circle
+                class="circlesFillTop"
+                id="right4Top"
+                r="6"
+                transform="matrix(-1 0 0 1 1270 346)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cRight3">
+            <g class="back" id="back_10">
+              <circle
+                class="circlesFillBottom"
+                id="right3Bottom"
+                r="8"
+                transform="matrix(-1 0 0 1 1366 307)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_10">
+              <circle
+                class="circlesFillTop"
+                id="right3Top"
+                r="8"
+                transform="matrix(-1 0 0 1 1366 307)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cRight2">
+            <g class="back" id="back_11">
+              <circle
+                class="circlesFillBottom"
+                id="right2Bottom"
+                r="6"
+                transform="matrix(-1 0 0 1 1425 177)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_11">
+              <circle
+                class="circlesFillTop"
+                id="right2Top"
+                r="6"
+                transform="matrix(-1 0 0 1 1425 177)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g class="smolCircles" id="cRight1">
+            <g class="back" id="back_12">
+              <circle
+                class="circlesFillBottom"
+                id="right1Bottom"
+                r="12"
+                transform="matrix(-1 0 0 1 1259 170)"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g class="top" id="top_12">
+              <circle
+                class="circlesFillTop"
+                id="right1Top"
+                r="12"
+                transform="matrix(-1 0 0 1 1259 170)"
+                fill="#C4C4C4"
+              />
+            </g>
+          </g>
+          <g id="cCenter">
+            <g id="cCenterFill">
+              <circle
+                class="circleCenterFill"
+                id="Ellipse 13"
+                cx="969.5"
+                cy="312.5"
+                r="255.5"
+                fill="#C4C4C4"
+              />
+            </g>
+            <g id="cCenterOutLine">
+              <circle
+                id="circleCenterOutline"
+                cx="969.5"
+                cy="312.5"
+                r="255"
+                stroke="url(#paint0_linear)"
+              />
+            </g>
+          </g>
+        </g>
+        <defs>
+          <linearGradient
+            id="paint0_linear"
+            x1="969.5"
+            y1="57"
+            x2="969.5"
+            y2="568"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#8493AD" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+      </svg>
+    </div>
+  </body>
+</html>
