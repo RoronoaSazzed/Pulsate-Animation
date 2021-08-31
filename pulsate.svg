@@ -1,0 +1,118 @@
+<svg width="100%" min-height="0" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="pulsate">
+<g class="smallCircles" id="cLeft6">
+<g class="back" id="back">
+<circle class="circlesFillBottom" id="left6Bottom" r="7" transform="matrix(-1 0 0 1 408 719)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top">
+<circle class="circlesFillTop" id="left6Top" r="7" transform="matrix(-1 0 0 1 408 719)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cLeft5">
+<g class="back" id="back_2">
+<circle class="circlesFillBottom" id="left5Bottom" r="9" transform="matrix(-1 0 0 1 400 637)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_2">
+<circle class="circlesFillTop" id="left5Top" r="9" transform="matrix(-1 0 0 1 400 637)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cLeft4">
+<g class="back" id="back_3">
+<circle class="circlesFillBottom" id="left4Bottom" r="4" transform="matrix(-1 0 0 1 591 573)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_3">
+<circle class="circlesFillTop" id="left4Top" r="4" transform="matrix(-1 0 0 1 591 573)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cLeft3">
+<g class="back" id="back_4">
+<circle class="circlesFillBottom" id="left3Bottom" r="4" transform="matrix(-1 0 0 1 396 532)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_4">
+<circle class="circlesFillTop" id="left3Top" r="4" transform="matrix(-1 0 0 1 396 532)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cLeft2">
+<g class="back" id="back_5">
+<circle class="circlesFillBottom" id="left2Bottom" r="5" transform="matrix(-1 0 0 1 435 405)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_5">
+<circle class="circlesFillTop" id="left2Top" r="5" transform="matrix(-1 0 0 1 435 405)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cLeft1">
+<g class="back" id="back_6">
+<circle class="circlesFillBottom" id="left1Bottom" cx="514" cy="357" r="7" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_6">
+<circle class="circlesFillTop" id="left1Top" cx="514" cy="357" r="7" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cRight6">
+<g class="back" id="back_7">
+<circle class="circlesFillBottom" id="right6Bottom" r="8" transform="matrix(-1 0 0 1 1521 656)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_7">
+<circle class="circlesFillTop" id="right6Top" r="8" transform="matrix(-1 0 0 1 1521 656)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cRight5">
+<g class="back" id="back_8">
+<circle class="circlesFillBottom" id="right5Bottom" r="4" transform="matrix(-1 0 0 1 1455 636)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_8">
+<circle class="circlesFillTop" id="right5Top" r="4" transform="matrix(-1 0 0 1 1455 636)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cRight4">
+<g class="back" id="back_9">
+<circle class="circlesFillBottom" id="right4Bottom" r="6" transform="matrix(-1 0 0 1 1262 573)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_9">
+<circle class="circlesFillTop" id="right4Top" r="6" transform="matrix(-1 0 0 1 1262 573)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cRight3">
+<g class="back" id="back_10">
+<circle class="circlesFillBottom" id="right3Bottom" r="8" transform="matrix(-1 0 0 1 1358 534)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_10">
+<circle class="circlesFillTop" id="right3Top" r="8" transform="matrix(-1 0 0 1 1358 534)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cRight2">
+<g class="back" id="back_11">
+<circle class="circlesFillBottom" id="right2Bottom" r="6" transform="matrix(-1 0 0 1 1417 404)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_11">
+<circle class="circlesFillTop" id="right2Top" r="6" transform="matrix(-1 0 0 1 1417 404)" fill="#C4C4C4"/>
+</g>
+</g>
+<g class="smallCircles" id="cRight1">
+<g class="back" id="back_12">
+<circle class="circlesFillBottom" id="right1Bottom" r="12" transform="matrix(-1 0 0 1 1251 397)" fill="#C4C4C4"/>
+</g>
+<g class="top" id="top_12">
+<circle class="circlesFillTop" id="right1Top" r="12" transform="matrix(-1 0 0 1 1251 397)" fill="#C4C4C4"/>
+</g>
+</g>
+<g id="cCenter">
+<g id="cCenterOutLine">
+<circle id="Ellipse 13" cx="961.5" cy="539.5" r="255" fill="url(#paint0_linear)" stroke="url(#paint1_linear)"/>
+</g>
+<g id="cCenterFill">
+<circle id="Ellipse 13_2" cx="961.5" cy="539.5" r="255.5" fill="#C4C4C4"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="961.5" y1="284" x2="961.5" y2="795" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CFD3D9"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="961.5" y1="284" x2="961.5" y2="795" gradientUnits="userSpaceOnUse">
+<stop stop-color="#CFD3D9"/>
+<stop offset="1" stop-color="white" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

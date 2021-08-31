@@ -128,10 +128,58 @@
         fill: var(--centerFill);
       }
 
-      #circleCenterFill .back {
+      .smolCircles .back {
         transform-origin: center;
         transform-box: fill-box;
         animation: pulsate 2s ease-in-out infinite forwards;
+      }
+
+      #back {
+        animation-delay: 3s;
+      }
+
+      #back_2 {
+        animation-delay: 2.75s;
+      }
+
+      #back_3 {
+        animation-delay: 2.5s;
+      }
+
+      #back_4 {
+        animation-delay: 2.25s;
+      }
+
+      #back_5 {
+        animation-delay: 2s;
+      }
+
+      #back_6 {
+        animation-delay: 1.75s;
+      }
+
+      #back_7 {
+        animation-delay: 1.5s;
+      }
+
+      #back_8 {
+        animation-delay: 1.25s;
+      }
+
+      #back_9 {
+        animation-delay: 1s;
+      }
+
+      #back_10 {
+        animation-delay: 0.75s;
+      }
+
+      #back_11 {
+        animation-delay: 0.5s;
+      }
+
+      #back_12 {
+        animation-delay: 0.25s;
       }
 
       #cCenterOutLine {
@@ -203,14 +251,15 @@
 
       @keyframes float {
         0% {
-          transform: translateY(0px);
+          transform: translateX(0px) translateY(0px);
         }
+
         50% {
-          transform: translateY(-5px);
+          transform: translateX(5px) translateY(5px);
         }
 
         100% {
-          transform: translateY(5px);
+          transform: translateX(10px) translateY(0px);
         }
       }
     </style>
@@ -467,24 +516,26 @@
               />
             </g>
           </g>
+
           <g id="cCenter">
-            <g id="cCenterFill">
-              <circle
-                class="circleCenterFill"
-                id="Ellipse 13"
-                cx="969.5"
-                cy="312.5"
-                r="255.5"
-                fill="#C4C4C4"
-              />
-            </g>
             <g id="cCenterOutLine">
               <circle
                 id="circleCenterOutline"
                 cx="969.5"
                 cy="312.5"
                 r="255"
-                stroke="url(#paint0_linear)"
+                fill="url(#paint0_linear)"
+                stroke="url(#paint1_linear)"
+              />
+            </g>
+            <g id="cCenterFill">
+              <circle
+                class="circleCenterFill"
+                id="Ellipse 13_2"
+                cx="969.5"
+                cy="312.5"
+                r="255.5"
+                fill="#C4C4C4"
               />
             </g>
           </g>
@@ -498,7 +549,18 @@
             y2="568"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#8493AD" />
+            <stop stop-color="#CFD3D9" />
+            <stop offset="1" stop-color="white" stop-opacity="0" />
+          </linearGradient>
+          <linearGradient
+            id="paint1_linear"
+            x1="969.5"
+            y1="57"
+            x2="969.5"
+            y2="568"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#CFD3D9" />
             <stop offset="1" stop-color="white" stop-opacity="0" />
           </linearGradient>
         </defs>
